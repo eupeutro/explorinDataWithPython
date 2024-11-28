@@ -11,7 +11,8 @@ xU100000 = np.random.uniform(low=-3, high=6, size=100000)
 fig = plt.figure(figsize=(10, 10))
 
 #HISTOGRAM OF UNIFORM DISTRIBUTION
-xU100000Hist = plt.subplot(2, 2, 1)
+xU100000Hist = plt.subplot(2, 2, 1
+                           )
 xU100000Hist.set_title('xU*100.000 Histogram')
 xU100000Hist.hist(xU100000, edgecolor='black', density=True, color='green',bins=50)
 sns.kdeplot(xU100000, color='black')
