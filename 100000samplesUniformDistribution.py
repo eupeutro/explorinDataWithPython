@@ -12,14 +12,14 @@ fig = plt.figure(figsize=(10, 10))
 
 #HISTOGRAM OF UNIFORM DISTRIBUTION
 xU100000Hist = plt.subplot(2, 2, 1)
-xU100000Hist.set_title('xU*10000 Histogram')
+xU100000Hist.set_title('xU*100.000 Histogram')
 xU100000Hist.hist(xU100000, edgecolor='black', density=True, color='green',bins=50)
 sns.kdeplot(xU100000, color='black')
 #INCREASING BINS LEVELS IMPROVES THE GRAPH VISUALIZATION
 
 #BOXPLOT OF UNIFORM DISTRIBUTION
 xU100000BoxPlot = plt.subplot(2, 2, 2)
-xU100000BoxPlot.set_title('xU*100000 Boxplot')
+xU100000BoxPlot.set_title('xU*100.000 Boxplot')
 xU100000BoxPlot = sns.boxplot(xU100000, color='green')
 
 #CALCULATING THE MEAN, MEDIAN, AND MODE
