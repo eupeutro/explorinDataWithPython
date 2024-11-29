@@ -5,10 +5,10 @@ import seaborn as sns
 from scipy import stats
 
 #GENERATING RANDOM VARIABLES WITH UNIFORM DISTRIBUTION
-xU = np.random.uniform(low=-3, high=6, size=10000)
+xU10000 = np.random.uniform(low=-3, high=6, size=10000)
 
 #GENERATING RANDOM VARIABLES WITH NORMAL DISTRIBUTION
-xN = np.random.normal(loc=3, scale=2, size=10000)
+xN10000 = np.random.normal(loc=3, scale=2, size=10000)
 
 #GENERATING A WEIGHTED COMBINATION VARIABLE FROM PREVIOUS VARIABLES "xU" AND "xN"
 xSum =2*xN+xU/3
