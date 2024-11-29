@@ -6,10 +6,10 @@ from scipy import stats
 import pandas as pd
 
 #GENERATING RANDOM VARIABLES WITH UNIFORM DISTRIBUTION
-xU = np.random.uniform(low=-3, high=6, size=1000)
+xU = np.random.uniform(low=-3, high=6, size=10000)
 
 #GENERATING RANDOM VARIABLES WITH NORMAL DISTRIBUTION
-xN = np.random.normal(loc=3, scale=2, size=1000)
+xN = np.random.normal(loc=3, scale=2, size=10000)
 
 #GENERATING A WEIGHTED COMBINATION VARIABLE FROM PREVIOUS VARIABLES "xU" AND "xN"
 xSum =2*xN+xU/3
